@@ -1,3 +1,5 @@
+a= int(input("ingrese un numero: "))
+b= int(input("ingrese un numero: "))
 def suma(a, b):
     return a + b
 
@@ -19,11 +21,11 @@ funciones = {
     "multiplicacion": multiplicacion,
     "division": division
 }
-resultado = funciones["suma"](2, 3)
+resultado = funciones["suma"](a,b)
 print(resultado)    
 
-resultado = funciones["division"](10, 2)
+resultado = funciones["division"](a,b)
 print(resultado)    
 
-resultado = funciones["resta"](7, 4)
+resultado = funciones["resta"](a,b)
 print(resultado)    
